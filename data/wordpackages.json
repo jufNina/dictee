@@ -1,0 +1,432 @@
+[
+  {
+    "id": "wp1",
+    "title": "Woordpakket 1",
+    "words": [
+      {
+        "answer": "de bank",
+        "audio": "audio/wp1/bank.mp3"
+      },
+      {
+        "answer": "de grond",
+        "audio": "audio/wp1/grond.mp3"
+      },
+      {
+        "answer": "hij kruipt",
+        "audio": "audio/wp1/kruipt.mp3"
+      },
+      {
+        "answer": "de kooien",
+        "audio": "audio/wp1/kooien.mp3"
+      },
+      {
+        "answer": "de ouders",
+        "audio": "audio/wp1/ouders.mp3"
+      },
+      {
+        "answer": "blauw",
+        "audio": "audio/wp1/blauw.mp3"
+      },
+      {
+        "answer": "de brandweer",
+        "audio": "audio/wp1/brandweer.mp3"
+      },
+      {
+        "answer": "donker",
+        "audio": "audio/wp1/donker.mp3"
+      },
+      {
+        "answer": "mooiste",
+        "audio": "audio/wp1/mooiste.mp3"
+      },
+      {
+        "answer": "hij schreeuwt",
+        "audio": "audio/wp1/schreeuwt.mp3"
+      },
+      {
+        "answer": "zij draaiden",
+        "audio": "audio/wp1/draaiden.mp3"
+      },
+      {
+        "answer": "hij hangt",
+        "audio": "audio/wp1/hangt.mp3"
+      },
+      {
+        "answer": "de lach",
+        "audio": "audio/wp1/lach.mp3"
+      },
+      {
+        "answer": "ik heb",
+        "audio": "audio/wp1/heb.mp3"
+      },
+      {
+        "answer": "hij vliegt",
+        "audio": "audio/wp1/vliegt.mp3"
+      },
+      {
+        "answer": "de vrijdag",
+        "audio": "audio/wp1/vrijdag.mp3"
+      },
+      {
+        "answer": "de ingang",
+        "audio": "audio/wp1/ingang.mp3"
+      },
+      {
+        "answer": "nieuw",
+        "audio": "audio/wp1/nieuw.mp3"
+      },
+      {
+        "answer": "de weide",
+        "audio": "audio/wp1/weide.mp3"
+      },
+      {
+        "answer": "ik wacht",
+        "audio": "audio/wp1/wacht.mp3"
+      }
+    ]
+  },
+  {
+    "id": "wp2",
+    "title": "Woordpakket 2",
+    "words": [
+      {
+        "answer": "zij bakken",
+        "audio": "audio/wp2/bakken.mp3"
+      },
+      {
+        "answer": "zij blussen",
+        "audio": "audio/wp2/blussen.mp3"
+      },
+      {
+        "answer": "domme",
+        "audio": "audio/wp2/domme.mp3"
+      },
+      {
+        "answer": "drukke",
+        "audio": "audio/wp2/drukke.mp3"
+      },
+      {
+        "answer": "de emmer",
+        "audio": "audio/wp2/emmer.mp3"
+      },
+      {
+        "answer": "frisse",
+        "audio": "audio/wp2/frisse.mp3"
+      },
+      {
+        "answer": "zij gillen",
+        "audio": "audio/wp2/gillen.mp3"
+      },
+      {
+        "answer": "de kapper",
+        "audio": "audio/wp2/kapper.mp3"
+      },
+      {
+        "answer": "het koppel",
+        "audio": "audio/wp2/koppel.mp3"
+      },
+      {
+        "answer": "de kudde",
+        "audio": "audio/wp2/kudde.mp3"
+      },
+      {
+        "answer": "de mannen",
+        "audio": "audio/wp2/mannen.mp3"
+      },
+      {
+        "answer": "zij redden",
+        "audio": "audio/wp2/redden.mp3"
+      },
+      {
+        "answer": "slimme",
+        "audio": "audio/wp2/slimme.mp3"
+      },
+      {
+        "answer": "de spinnen",
+        "audio": "audio/wp2/spinnen.mp3"
+      },
+      {
+        "answer": "de sterren",
+        "audio": "audio/wp2/sterren.mp3"
+      },
+      {
+        "answer": "de takken",
+        "audio": "audio/wp2/takken.mp3"
+      },
+      {
+        "answer": "zij trokken",
+        "audio": "audio/wp2/trokken.mp3"
+      },
+      {
+        "answer": "de tunnel",
+        "audio": "audio/wp2/tunnel.mp3"
+      },
+      {
+        "answer": "de vlekken",
+        "audio": "audio/wp2/vlekken.mp3"
+      },
+      {
+        "answer": "volle",
+        "audio": "audio/wp2/volle.mp3"
+      }
+    ]
+  },
+  {
+    "id": "wp3",
+    "title": "Woordpakket 3",
+    "words": [
+      {
+        "answer": "ze aten",
+        "audio": "audio/wp3/aten.mp3"
+      },
+      {
+        "answer": "ze bleven",
+        "audio": "audio/wp3/bleven.mp3"
+      },
+      {
+        "answer": "boze",
+        "audio": "audio/wp3/boze.mp3"
+      },
+      {
+        "answer": "duren",
+        "audio": "audio/wp3/duren.mp3"
+      },
+      {
+        "answer": "hele",
+        "audio": "audio/wp3/hele.mp3"
+      },
+      {
+        "answer": "de kabels",
+        "audio": "audio/wp3/kabels.mp3"
+      },
+      {
+        "answer": "ze keken",
+        "audio": "audio/wp3/keken.mp3"
+      },
+      {
+        "answer": "ze kopen",
+        "audio": "audio/wp3/kopen.mp3"
+      },
+      {
+        "answer": "de muziek",
+        "audio": "audio/wp3/muziek.mp3"
+      },
+      {
+        "answer": "proper",
+        "audio": "audio/wp3/proper.mp3"
+      },
+      {
+        "answer": "pure",
+        "audio": "audio/wp3/pure.mp3"
+      },
+      {
+        "answer": "de ruzie",
+        "audio": "audio/wp3/ruzie.mp3"
+      },
+      {
+        "answer": "ze spraken",
+        "audio": "audio/wp3/spraken.mp3"
+      },
+      {
+        "answer": "ze sturen",
+        "audio": "audio/wp3/sturen.mp3"
+      },
+      {
+        "answer": "tegen",
+        "audio": "audio/wp3/tegen.mp3"
+      },
+      {
+        "answer": "hij toverde",
+        "audio": "audio/wp3/toverde.mp3"
+      },
+      {
+        "answer": "de tranen",
+        "audio": "audio/wp3/tranen.mp3"
+      },
+      {
+        "answer": "ze vlogen",
+        "audio": "audio/wp3/vlogen.mp3"
+      },
+      {
+        "answer": "de wereld",
+        "audio": "audio/wp3/wereld.mp3"
+      },
+      {
+        "answer": "ze zaten",
+        "audio": "audio/wp3/zaten.mp3"
+      }
+    ]
+  },
+  {
+    "id": "wp4",
+    "title": "Woordpakket 4",
+    "words": [
+      {
+        "answer": "dolle",
+        "audio": "audio/wp4/dolle.mp3"
+      },
+      {
+        "answer": "felle",
+        "audio": "audio/wp4/felle.mp3"
+      },
+      {
+        "answer": "ze hadden",
+        "audio": "audio/wp4/hadden.mp3"
+      },
+      {
+        "answer": "de knuffel",
+        "audio": "audio/wp4/knuffel.mp3"
+      },
+      {
+        "answer": "lekker",
+        "audio": "audio/wp4/lekker.mp3"
+      },
+      {
+        "answer": "de lippen",
+        "audio": "audio/wp4/lippen.mp3"
+      },
+      {
+        "answer": "het midden",
+        "audio": "audio/wp4/midden.mp3"
+      },
+      {
+        "answer": "het nummer",
+        "audio": "audio/wp4/nummer.mp3"
+      },
+      {
+        "answer": "toffe",
+        "audio": "audio/wp4/toffe.mp3"
+      },
+      {
+        "answer": "ze breken",
+        "audio": "audio/wp4/breken.mp3"
+      },
+      {
+        "answer": "brutaal",
+        "audio": "audio/wp4/brutaal.mp3"
+      },
+      {
+        "answer": "dode",
+        "audio": "audio/wp4/dode.mp3"
+      },
+      {
+        "answer": "de hemel",
+        "audio": "audio/wp4/hemel.mp3"
+      },
+      {
+        "answer": "ze kraken",
+        "audio": "audio/wp4/kraken.mp3"
+      },
+      {
+        "answer": "de meter",
+        "audio": "audio/wp4/meter.mp3"
+      },
+      {
+        "answer": "de oven",
+        "audio": "audio/wp4/oven.mp3"
+      },
+      {
+        "answer": "ik probeer",
+        "audio": "audio/wp4/probeer.mp3"
+      },
+      {
+        "answer": "de slaven",
+        "audio": "audio/wp4/slaven.mp3"
+      },
+      {
+        "answer": "de katten",
+        "audio": "audio/wp4/katten.mp3"
+      },
+      {
+        "answer": "de wapens",
+        "audio": "audio/wp4/wapens.mp3"
+      }
+    ]
+  },
+  {
+    "id": "wp5",
+    "title": "Woordpakket 5",
+    "words": [
+      {
+        "answer": "de boerin",
+        "audio": "audio/wp5/boerin.mp3"
+      },
+      {
+        "answer": "de boeven",
+        "audio": "audio/wp5/boeven.mp3"
+      },
+      {
+        "answer": "de brieven",
+        "audio": "audio/wp5/brieven.mp3"
+      },
+      {
+        "answer": "de hoeve",
+        "audio": "audio/wp5/hoeve.mp3"
+      },
+      {
+        "answer": "de keuze",
+        "audio": "audio/wp5/keuze.mp3"
+      },
+      {
+        "answer": "leuker",
+        "audio": "audio/wp5/leuker.mp3"
+      },
+      {
+        "answer": "niemand",
+        "audio": "audio/wp5/niemand.mp3"
+      },
+      {
+        "answer": "we proeven",
+        "audio": "audio/wp5/proeven.mp3"
+      },
+      {
+        "answer": "we verliezen",
+        "audio": "audio/wp5/verliezen.mp3"
+      },
+      {
+        "answer": "we vieren",
+        "audio": "audio/wp5/vieren.mp3"
+      },
+      {
+        "answer": "alweer",
+        "audio": "audio/wp5/alweer.mp3"
+      },
+      {
+        "answer": "ik raakte",
+        "audio": "audio/wp5/raakte.mp3"
+      },
+      {
+        "answer": "ik beleefde",
+        "audio": "audio/wp5/beleefde.mp3"
+      },
+      {
+        "answer": "daardoor",
+        "audio": "audio/wp5/daardoor.mp3"
+      },
+      {
+        "answer": "het gevoel",
+        "audio": "audio/wp5/gevoel.mp3"
+      },
+      {
+        "answer": "de moorden",
+        "audio": "audio/wp5/moorden.mp3"
+      },
+      {
+        "answer": "de speelplaats",
+        "audio": "audio/wp5/speelplaats.mp3"
+      },
+      {
+        "answer": "het stroomde",
+        "audio": "audio/wp5/stroomde.mp3"
+      },
+      {
+        "answer": "ik verdiende",
+        "audio": "audio/wp5/verdiende.mp3"
+      },
+      {
+        "answer": "vreemd",
+        "audio": "audio/wp5/vreemd.mp3"
+      }
+    ]
+  }
+]
