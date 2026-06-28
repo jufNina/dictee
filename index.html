@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dictee oefenen</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="app">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">Spelling oefenen</p>
+        <h1>Dictee oefenen</h1>
+      </div>
+      <button id="themeButton" class="ghost">Donker</button>
+    </header>
+
+    <nav class="tabs" aria-label="Navigatie">
+      <button class="tab active" data-view="practice">Oefenen</button>
+      <button class="tab" data-view="random">Willekeurig dictee</button>
+      <button class="tab" data-view="review">Herhaling</button>
+      <button class="tab" data-view="results">Resultaten</button>
+      <button class="tab" data-view="settings">Instellingen</button>
+    </nav>
+
+    <section id="practice" class="view active">
+      <section class="card setup">
+        <label for="packageSelect">Woordpakket</label>
+        <select id="packageSelect"></select>
+        <label for="amountSelect">Aantal woorden</label>
+        <select id="amountSelect">
+          <option value="5">5</option>
+          <option value="10">10</option>
+          <option value="20" selected>20</option>
+        </select>
+        <label class="check"><input id="shuffleToggle" type="checkbox"> Willekeurige volgorde</label>
+        <button id="startButton" class="primary">Start dictee</button>
+      </section>
+      <section id="dictationCard" class="card dictation hidden">
+        <p id="progress" class="progress">Woord 1 van 20</p>
+        <button id="playButton" class="play">Beluister woord</button>
+        <input id="answerInput" autocomplete="off" placeholder="Typ hier je antwoord">
+        <div class="actions">
+          <button id="checkButton" class="primary">Controleer</button>
+          <button id="showButton" class="ghost">Toon woord</button>
+          <button id="nextButton" class="ghost" disabled>Volgend woord</button>
+        </div>
+        <p id="feedback" class="feedback"></p>
+        <p id="shownAnswer" class="shown"></p>
+      </section>
+    </section>
+
+    <section id="random" class="view">
+      <section class="card">
+        <h2>Willekeurig dictee</h2>
+        <p>Kies hoeveel woorden je door elkaar wilt oefenen uit alle beschikbare woordpakketten.</p>
+        <label for="randomAmount">Aantal woorden</label>
+        <select id="randomAmount">
+          <option value="5">5</option>
+          <option value="10" selected>10</option>
+          <option value="20">20</option>
+          <option value="40">40</option>
+        </select>
+        <button id="randomStartButton" class="primary">Start willekeurig dictee</button>
+      </section>
+    </section>
+
+    <section id="review" class="view">
+      <section class="card">
+        <h2>Herhaling</h2>
+        <p id="reviewInfo">Fout geschreven woorden verschijnen hier na een dictee.</p>
+        <button id="reviewButton" class="primary">Start herhaling</button>
+        <button id="clearReviewButton" class="ghost">Wis herhaling</button>
+      </section>
+    </section>
+
+    <section id="results" class="view">
+      <section class="card">
+        <h2>Resultaten</h2>
+        <div id="resultsList" class="results"></div>
+      </section>
+    </section>
+
+    <section id="settings" class="view">
+      <section class="card">
+        <h2>Instellingen</h2>
+        <label class="check"><input id="autoPlayToggle" type="checkbox" checked> Speel automatisch af bij nieuw woord</label>
+        <label class="check"><input id="doublePlayToggle" type="checkbox"> Speel elk woord twee keer af</label>
+        <button id="resetButton" class="danger">Wis alle resultaten</button>
+      </section>
+    </section>
+  </main>
+  <script src="js/app.js"></script>
+</body>
+</html>
