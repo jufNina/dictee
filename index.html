@@ -93,5 +93,67 @@
   </main>
 
   <script type="module" src="js/app.js"></script>
+<script>
+(function () {
+  const key = 'dicteeResults';
+
+  function getResults() {
+    try { return JSON.parse(localStorage.getItem(key) || '[]'); }
+    catch { return []; }
+  }
+
+  function esc(value) {
+    return String(value || '').replace(/[&<>"']/g, c => ({
+      '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;'
+    }[c]));
+  }
+
+  function renderTeacherResults() {
+    const admin = document.getElementById('adminView');
+    if (!admin || admin.classList.contains('hidden') || document.getElementById('teacherResultsBox')) return;
+
+    const results = getResults();
+    const box = document.createElement('div');
+    box.id = 'teacherResultsBox';
+    box.className = 'admin-help';
+    box.innerHTML = '<h3>Overzicht leerlingen</h3>';
+
+    if (!results.length) {
+      box.innerHTML += '<p>Nog geen oefenresultaten op dit toestel.</p>';
+      admin.appendChild(box);
+      return;
+    }
+
+    const groups = {};
+    results.forEach(r => {
+      const name = r.studentName || 'Onbekende leerling';
+      groups[name] = groups[name] || [];
+      groups[name].push(r);
+    });
+
+    box.innerHTML += Object.entries(groups).map(([name, items]) => {
+      const rows = items.map(r => {
+        const date = new Date(r.date).toLocaleString('nl-BE', { dateStyle: 'short', timeStyle: 'short' });
+        return `<li><strong>${esc(r.packageTitle)}</strong><br>Score: ${r.score}/${r.total}<br><span>${date}</span></li>`;
+      }).join('');
+
+      return `
+        <div class="result-item">
+          <h3>${esc(name)}</h3>
+          <p>${items.length} oefenbeurt${items.length === 1 ? '' : 'en'}</p>
+          <ul class="results-list">${rows}</ul>
+        </div>
+      `;
+    }).join('');
+
+    admin.appendChild(box);
+  }
+
+  if (new URLSearchParams(location.search).get('admin') === '1') {
+    const timer = setInterval(renderTeacherResults, 200);
+    setTimeout(() => clearInterval(timer), 5000);
+  }
+})();
+</script>
 </body>
 </html>
