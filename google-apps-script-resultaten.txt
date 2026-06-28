@@ -1,0 +1,21 @@
+function doPost(e) {
+  const sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+  const data = JSON.parse(e.postData.contents);
+
+  if (sheet.getLastRow() === 0) {
+    sheet.appendRow(['Datum', 'Naam', 'Woordpakket', 'Score', 'Totaal', 'Fouten']);
+  }
+
+  sheet.appendRow([
+    new Date(data.datum),
+    data.naam,
+    data.woordpakket,
+    data.score,
+    data.totaal,
+    data.fouten
+  ]);
+
+  return ContentService
+    .createTextOutput(JSON.stringify({ ok: true }))
+    .setMimeType(ContentService.MimeType.JSON);
+}
